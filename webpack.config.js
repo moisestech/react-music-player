@@ -7,7 +7,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index_bundle.js",
-    publicPath: "/",
   },
   module: {
     rules: [
@@ -19,7 +18,7 @@ module.exports = {
   mode: process.env.NODE_ENV === "production" ? "production" : "development",
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./public/index.html",
+      template: "public/index.html",
     }),
     new CopyPlugin({
       patterns: [{ from: "./public/_redirects" }],
