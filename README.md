@@ -39,3 +39,8 @@ Coming Soon!
 - Finnish Tutorial
 - Add Router for Songs
 - React Router v5
+- setSongs change albums
+- Show Playing animation
+- Show Song timeline
+- Show Song number timeline
+- Implement [Audio Player](https://codesandbox.io/s/5wwj02qy7k?file=/src/useAudioPlayer.js)
